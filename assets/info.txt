@@ -1,0 +1,32 @@
+https://www.flaticon.com/
+
+Sobre o CTTI, Cursos Disponíveis, Tecnologia, Processo Seletivo, Sistema Fiemg, 
+
+Cursos {
+    Cursos de Aprendizagem Industrial
+
+Rede de Computadores
+Assistente em Programação em Web
+
+Cursos Técnicos
+
+Informática para Internet
+Redes de Computadores
+
+Cursos de Qualificação
+
+Desenvolvimento de Back-End
+Desenvolvimento de Front-End
+
+Cursos de Aperfeiçoamento
+
+Excel do Básico ao Avançado
+Criação de site com BOOTSTRAP
+Prototipagem para Web e Mobile
+Programação em Linguagem Java
+Programação em Linguagem Python
+Desenvolvimento Web em PHP e LARAVEL
+Bancos de Dados Não Relacionáveis
+Desenvolvimento de Aplicativos Android (nativo)
+Metodologias ágeis SCRUM
+}
