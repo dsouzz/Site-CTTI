@@ -1,0 +1,158 @@
+
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <title>Senai CTTI</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="header-content">
+            <div id="headLogo">
+                <a href="index.html" target="_self">
+                    <img src="./assets/senaiLogoNoBG.png" width="15%">
+                </a>
+            </div>
+    
+            <div id="headops">
+                <a href="https://www.fiemg.com.br/" target="_self">FIEMG</a>
+                <a href="https://ciemgcursos.com.br/" target="_self">CIEMG</a>
+                <a href="https://www.fiemg.com.br/sesi/" target="_self">SESI</a>
+                <a href="https://www.fiemg.com.br/iel/" target="_self">IEL</a>
+            </div>
+            <div id="social">
+                <a href="https://www.instagram.com/senaictti/">
+                    <img src="./assets/instagram.svg" alt="Instagram" width="60%">
+                </a>
+                <a href="https://br.linkedin.com/school/senai-centro-de-treinamento-da-tecnologia-da-informação-ctti-mg/">
+                    <img src="./assets/linkedin.svg" alt="LinkedIn" width="60%">
+                </a>
+                <a href="">
+                    <img src="./assets/whatsapp.svg" alt="Whatsapp" width="60%" class="wpp">
+                </a>
+            </div>
+        </div>
+    
+        <div class="header-ack">
+            <div id="ack">
+                <a href="/home.html" target="tela">Sobre o CTTI</a> |
+                <a href="/home.html" target="tela">Cursos Disponíveis</a> |
+                <a href="/tech.html" target="tela">Tecnologia</a> |
+                <a href="https://www.senaimg.com.br/Aprendizagem2024/" target="tela">Processo Seletivo</a> |
+                <a href="https://www.fiemg.com.br/fiemg/" target="_self">Trabalhe Conosco</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <iframe src="home.html" frameborder="0" width="100%" height="1500px" id="mainIframe" name="tela"></iframe>
+        <script>
+            function ajustarAlturaIframe(event) {
+                if (event.origin !== window.location.origin) {
+                    return; // Verifica a origem da mensagem
+                }
+                var iframe = document.getElementById('mainIframe');
+                var altura = event.data; // Recebe a altura do iframe
+                iframe.style.height = altura *1.1 + 'px'; // Ajusta a altura do iframe
+            }
+        
+            window.addEventListener('message', ajustarAlturaIframe); // Ouve as mensagens do iframe
+            window.addEventListener('resize', function() {
+                var iframe = document.getElementById('mainIframe');
+                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px'; // Ajusta ao redimensionar
+            });
+        
+            // Ajusta a altura inicial
+            window.onload = function() {
+                var iframe = document.getElementById('mainIframe');
+                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px'; 
+            };
+        </script>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div id="footcontent">
+            <a href="index.html" class="senaiLogo">
+                <img src="./assets/senaiLogoNoBG.png" alt="Senai" class="senaiLogo">
+            </a>
+            <div id="contatomain">
+                <div id="contato">
+                    <div class="contato-item">
+                        <a href="tel:(31) 99955-4185">
+                            <img src="./assets/phone-call.png" alt="Telefone" width="5%">
+                        </a>
+                        <a href="tel:(31) 99955-4185">(31) 99955-4185</a>
+                    </div>
+                    <div class="contato-item">
+                        <a href="mailto:senaictti@fiemg.com.br">
+                            <img src="./assets/email.png" alt="Email" width="5%">
+                        </a>
+                        <a href="mailto:senaictti@fiemg.com.br">senaictti@fiemg.com.br</a>
+                    </div>
+                    <div class="contato-item">
+                        <a href="https://api.whatsapp.com/send?phone=5531999554185&text=Ol%C3%A1,%20bom%20dia!%20Estou%20entrando%20em%20contato%20com%20a%20seguinte%20finalidade:%0A">
+                            <img src="./assets/whatsapp.png" alt="Whatsapp" width="5%">
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=5531999554185&text=Ol%C3%A1,%20bom%20dia!%20Estou%20entrando%20em%20contato%20com%20a%20seguinte%20finalidade:%0A">(31) 99955-4185</a>
+                    </div>
+                </div>
+            </div>
+            <div id="sobre">
+                <p class="boldtxt">
+                    Sobre Nós
+                    <hr>
+                </p>
+                <nav class="items">
+                    <a href="">Sobre o CTTI</a>
+                    <a href="">Outras Unidades</a>
+                    <a href="">Cursos Disponíveis</a>
+                    <a href=""></a>
+                </nav>
+            </div>
+            <div id="outro">
+                <p class="boldtxt">
+                    Outras Páginas
+                    <hr>
+                </p>
+                <nav class="items">
+                    <a href="https://www.fiemg.com.br/">FIEMG</a>
+                    <a href="https://www.fiemg.com.br/sesi/">SESI</a>
+                    <a href="https://ciemgcursos.com.br/">CIEMG</a>
+                    <a href="https://www.fiemg.com.br/iel/">IEL</a>
+                </nav>
+            </div>
+        </div>
+        <div id="local">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1577.1581804002583!2d-43.93844375866311!3d-19.91869578361944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699fb64f3fb07%3A0xfdbaad21df27456c!2sR.%20Rio%20de%20Janeiro%2C%20471%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG%2C%2030160-041!5e0!3m2!1spt-BR!2sbr!4v1730220619735!5m2!1spt-BR!2sbr"
+                width="525" height="375" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p id="rights">
+            Copyright 2024 © Todos os direitos reservados.
+        </p>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

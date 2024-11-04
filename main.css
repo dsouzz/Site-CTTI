@@ -1,0 +1,1612 @@
+
+@media (max-width: 374px) {
+    body {
+        margin: 0;
+        border: 0;
+        font-family: "Noto Sans", Sans-serif;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #639bf7ad #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+        background: #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        background-color: #639bf7ad;
+        border-radius: 90px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0047B6;
+    }
+
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wpp {
+        filter: invert(100%);
+    }
+
+    #headLogo {
+        display: flex;
+        align-items: center;
+        margin-left: 1px;
+    }
+
+    #headLogo img {
+        width: 60px;
+        height: auto;
+    }
+
+    #headops {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #headops a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+
+    #headops a:hover {
+        color: lightgray;
+    }
+
+    #social {
+        display: flex;
+        gap: 9px;
+        margin-right: 1px;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    #social img {
+        width: 16px;
+        height: auto;
+    }
+
+    .header-ack {
+        width: 100%;
+    }
+
+    #ack {
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+        font-size: 0.6rem;
+        text-align: center;
+        color: #0047B6;
+        border-bottom: 1px solid #0047B6;
+        border-top: 1px solid #0047B6;
+    }
+
+    #ack a {
+        text-decoration: none;
+        color: #0047B6;
+        text-align: center;
+    }
+
+    #ack a:hover {
+        color: #357beb;
+    }
+
+    /* Main */
+    main iframe {
+        border: none;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #0047B6;
+        width: 100%;
+        height: auto;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #footcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .senaiLogo {
+        width: 60%;
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    #contatomain {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .contato-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .contato-item img {
+        width: 15px;
+    }
+
+    .contato-item a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .boldtxt {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .items {
+        display: grid;
+        gap: 5px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .items a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .items a:hover {
+        text-decoration: underline;
+    }
+
+    #sobre, #outro {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #local {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #local iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    #rights {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 90px 90px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    body {
+        margin: 0;
+        border: 0;
+        font-family: "Noto Sans", Sans-serif;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #639bf7ad #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+        background: #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        background-color: #639bf7ad;
+        border-radius: 90px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0047B6;
+    }
+
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wpp {
+        filter: invert(100%);
+    }
+
+    #headLogo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #headLogo img {
+        width: 60px;
+        height: auto;
+    }
+
+    #headops {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #headops a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+
+    #headops a:hover {
+        color: lightgray;
+    }
+
+    #social {
+        display: flex;
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    #social img {
+        width: 20px;
+        height: auto;
+    }
+
+    .header-ack {
+        width: 100%;
+    }
+
+    #ack {
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+        font-size: 0.6rem;
+        text-align: center;
+        color: #0047B6;
+        border-bottom: 1px solid #0047B6;
+        border-top: 1px solid #0047B6;
+    }
+
+    #ack a {
+        text-decoration: none;
+        color: #0047B6;
+        text-align: center;
+    }
+
+    #ack a:hover {
+        color: #357beb;
+    }
+
+    /* Main */
+    main iframe {
+        border: none;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #0047B6;
+        width: 100%;
+        height: auto;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #footcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .senaiLogo {
+        width: 60%;
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    #contatomain {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .contato-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .contato-item img {
+        width: 15px;
+    }
+
+    .contato-item a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .boldtxt {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .items {
+        display: grid;
+        gap: 5px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .items a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .items a:hover {
+        text-decoration: underline;
+    }
+
+    #sobre, #outro {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #local {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #local iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    #rights {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 20px;
+        padding: 10px 0;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    body {
+        margin: 0;
+        border: 0;
+        font-family: "Noto Sans", Sans-serif;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #639bf7ad #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+        background: #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        background-color: #639bf7ad;
+        border-radius: 90px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0047B6;
+    }
+
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wpp {
+        filter: invert(100%);
+    }
+
+    #headLogo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #headLogo img {
+        width: 60px;
+        height: auto;
+    }
+
+    #headops {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #headops a {
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+
+    #headops a:hover {
+        color: lightgray;
+    }
+
+    #social {
+        display: flex;
+        gap: 10px;
+        margin-right: 10px;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    #social img {
+        width: 20px;
+        height: auto;
+    }
+
+    .header-ack {
+        width: 100%;
+    }
+
+    #ack {
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+        font-size: 0.6rem;
+        text-align: center;
+        color: #0047B6;
+        border-bottom: 1px solid #0047B6;
+        border-top: 1px solid #0047B6;
+    }
+
+    #ack a {
+        text-decoration: none;
+        color: #0047B6;
+        text-align: center;
+    }
+
+    #ack a:hover {
+        color: #357beb;
+    }
+
+    /* Main */
+    main iframe {
+        border: none;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #0047B6;
+        width: 100%;
+        height: auto;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #footcontent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .senaiLogo {
+        width: 60%;
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    #contatomain {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .contato-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .contato-item img {
+        width: 15px;
+    }
+
+    .contato-item a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .boldtxt {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+
+    .items {
+        display: grid;
+        gap: 5px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .items a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .items a:hover {
+        text-decoration: underline;
+    }
+
+    #sobre, #outro {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #local {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #local iframe {
+        width: 100%;
+        height: 200px;
+    }
+
+    #rights {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        padding: 90px 90px;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        margin: 0;
+        border: 0;
+        font-family: "Noto Sans", Sans-serif;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #639bf7ad #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+        background: #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        background-color: #639bf7ad;
+        border-radius: 90px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0047B6;
+    }
+
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wpp {
+        filter: invert(100%);
+    }
+
+    #headLogo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #headLogo img {
+        width: 120px;
+        height: auto;
+    }
+
+    #headops {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #headops a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.2rem;
+        white-space: nowrap;
+    }
+
+    #headops a:hover {
+        color: lightgray;
+    }
+
+    #social {
+        display: flex;
+        gap: 10px;
+        margin-right: 10px
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    #social img {
+        width: 20px;
+        height: auto;
+    }
+
+    .header-ack {
+        width: 100%;
+    }
+
+    #ack {
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+        font-size: 0.9rem;
+        text-align: center;
+        color: #0047B6;
+        border-bottom: 1px solid #0047B6;
+        border-top: 1px solid #0047B6;
+    }
+
+    #ack a {
+        text-decoration: none;
+        color: #0047B6;
+        text-align: center;
+    }
+
+    #ack a:hover {
+        color: #357beb;
+    }
+
+    /* CSS para o iframe do conteudo principal da pagina */
+    main iframe {
+        border: none;
+    }
+
+
+    /* CSS para o footer da página */
+    footer {
+        position: relative;
+        background-color: #0047B6;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    #footcontent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .senaiLogo {
+        width: 100%;
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+
+    #contatomain, #sobre, #outro, #local {
+        margin: 10px;
+        width: 100%;
+    }
+
+    .boldtxt {
+        font-size: 18px;
+        margin: 0 0 10px 0;
+        font-weight: bold;
+    }
+
+    .items {
+        display: grid;
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .items a {
+        color: white;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    .items a:hover {
+        text-decoration: underline;
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .contato-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+    }
+
+    .contato-item img {
+        width: 20px;
+    }
+
+    .contato-item a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #local iframe {
+        width: 100%;
+        max-width: 270px;
+        height: 240px;
+    }
+
+    #rights {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+        margin: 0;
+        border: 0;
+        font-family: "Noto Sans", Sans-serif;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #639bf7ad #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+        background: #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        background-color: #639bf7ad;
+        border-radius: 90px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0047B6;
+    }
+
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wpp {
+        filter: invert(100%);
+    }
+
+    #headLogo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #headLogo img {
+        width: 140px;
+        height: auto;
+    }
+
+    #headops {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #headops a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.4rem;
+        white-space: nowrap;
+    }
+
+    #headops a:hover {
+        color: lightgray;
+    }
+
+    #social {
+        display: flex;
+        gap: 15px;
+        margin-right: 10px;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    #social img {
+        width: 40px;
+        height: auto;
+    }
+
+    .header-ack {
+        width: 100%;
+    }
+
+    #ack {
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+        font-size: 1.0rem;
+        text-align: center;
+        color: #0047B6;
+        border-bottom: 1px solid #0047B6;
+        border-top: 1px solid #0047B6;
+    }
+
+    #ack a {
+        text-decoration: none;
+        color: #0047B6;
+        text-align: center;
+    }
+
+    #ack a:hover {
+        color: #357beb;
+    }
+
+    /* Main */
+    main iframe {
+        border: none;
+    }
+
+
+    /* CSS para o footer da página */
+    footer {
+        position: relative;
+        background-color: #0047B6;
+        width: 100%;
+        height: 50vh;
+        color: white;
+        text-align: center;
+
+        /* Deixando alguns textos com a fonte maior */
+        .boldtxt {
+            font-size: 25px;
+            margin: 0;
+            border: 0;
+        }
+
+        /* Configurando a classe "items" */
+        .items {
+            display: grid;
+            gap: 1px;
+            font-size: 15px;
+        }
+
+        .items a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .items a:hover {
+            /* border: 1px solid white;
+            border-radius: 10px; */
+            text-decoration: underline;
+        }
+
+        /* Configurando a classe "senaiLogo" para a logo do footer */
+        .senaiLogo {
+            position: absolute;
+            width: 38%;
+            left: 4%;
+        }
+    }
+
+    #footcontent {
+        position: relative;
+        width: 100%;
+        top: 10%;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contatomain {
+        position: absolute;
+        left: 5%;
+        top: 50px;
+        display: grid;
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .contato-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 14px;
+    }
+    
+    .contato-item img {
+        width: 20px;
+    }
+    
+    .contato-item a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #sobre {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        left: 25%;
+    }
+
+    #outro {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        left: 43%;
+    }
+
+    #local {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        right: 2%;
+        top: 5%;
+    }
+
+    #local iframe {
+        width: 340px;
+        height: 240px;
+    }
+
+    #rights {
+        position: absolute;
+        left: 40%;
+        bottom: 3%;
+        margin: 0;
+        border: 0;
+        font-size: 10px;
+    }
+    
+}
+
+@media (min-width: 1440px) and (max-width: 2559px) {
+    body {
+        margin: 0;
+        border: 0;
+        font-family: "Noto Sans", Sans-serif;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #639bf7ad #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+        background: #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        background-color: #639bf7ad;
+        border-radius: 90px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0047B6;
+    }
+
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wpp {
+        filter: invert(100%);
+    }
+
+    #headLogo {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    #headLogo img {
+        width: 160px;
+        height: auto;
+    }
+
+    #headops {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #headops a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.6rem;
+        white-space: nowrap;
+    }
+
+    #headops a:hover {
+        color: lightgray;
+    }
+
+    #social {
+        display: flex;
+        gap: 15px;
+        margin-right: 10px;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    #social img {
+        width: 50px;
+        height: auto;
+    }
+
+    .header-ack {
+        width: 100%;
+    }
+
+    #ack {
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+        font-size: 1.2rem;
+        text-align: center;
+        color: #0047B6;
+        border-bottom: 1px solid #0047B6;
+        border-top: 1px solid #0047B6;
+    }
+
+    #ack a {
+        text-decoration: none;
+        color: #0047B6;
+        text-align: center;
+    }
+
+    #ack a:hover {
+        color: #357beb;
+    }
+
+    /* Main */
+    main iframe {
+        border: none;
+    }
+
+
+    /* CSS para o footer da página */
+    footer {
+        position: relative;
+        background-color: #0047B6;
+        width: 100%;
+        height: 60vh;
+        color: white;
+        text-align: center;
+
+        /* Deixando alguns textos com a fonte maior */
+        .boldtxt {
+            font-size: 32px;
+            margin: 0;
+            border: 0;
+        }
+
+        /* Configurando a classe "items" */
+        .items {
+            display: grid;
+            gap: 20px;
+        }
+
+        .items a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .items a:hover {
+            /* border: 1px solid white;
+            border-radius: 10px; */
+            text-decoration: underline;
+        }
+
+        /* Configurando a classe "senaiLogo" para a logo do footer */
+        .senaiLogo {
+            position: absolute;
+            width: 40%;
+            left: 4%;
+        }
+    }
+
+    #footcontent {
+        position: relative;
+        width: 100%;
+        top: 10%;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contatomain {
+        position: absolute;
+        left: 5%;
+        top: 100px;
+        display: grid;
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .contato-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 20px;
+    }
+    
+    .contato-item img {
+        width: 34px;
+    }
+    
+    .contato-item a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #sobre {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        left: 30%;
+    }
+
+    #outro {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        left: 43%;
+    }
+
+    #local {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        right: 2%;
+        top: 5%;
+    }
+
+    #local iframe {
+        width: 500px;
+        height: 335px;
+    }
+
+    #rights {
+        position: absolute;
+        left: 40%;
+        bottom: 3%;
+        margin: 0;
+        border: 0;
+    }
+    
+}
+
+@media (min-width: 2560px) {
+    body {
+        margin: 0;
+        border: 0;
+        font-family: "Noto Sans", Sans-serif;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: #639bf7ad #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar {
+        width: 12px;
+    }
+    
+    *::-webkit-scrollbar-track {
+        background: #dfebff2f;
+    }
+    
+    *::-webkit-scrollbar-thumb {
+        background-color: #639bf7ad;
+        border-radius: 90px;
+    }
+
+    /* Header */
+    header {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #0047B6;
+    }
+
+    .header-content {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wpp {
+        filter: invert(100%);
+    }
+
+    #headLogo {
+        display: flex;
+        align-items: center;
+        margin-left: 20px;
+    }
+
+    #headLogo img {
+        width: 300px;
+        height: auto;
+    }
+
+    #headops {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    #headops a {
+        text-decoration: none;
+        color: white;
+        font-size: 2.5rem;
+        white-space: nowrap;
+    }
+
+    #headops a:hover {
+        color: lightgray;
+    }
+
+    #social {
+        display: flex;
+        gap: 25px;
+        margin-right: 20px;
+    }
+
+    #social a {
+        text-decoration: none;
+    }
+
+    #social img {
+        width: 90px;
+        height: auto;
+    }
+
+    .header-ack {
+        width: 100%;
+    }
+
+    #ack {
+        width: 100%;
+        background-color: white;
+        padding: 5px;
+        font-size: 2.0rem;
+        text-align: center;
+        color: #0047B6;
+        border-bottom: 1px solid #0047B6;
+        border-top: 1px solid #0047B6;
+    }
+
+    #ack a {
+        text-decoration: none;
+        color: #0047B6;
+        text-align: center;
+    }
+
+    #ack a:hover {
+        color: #357beb;
+    }
+
+    /* Main */
+    main iframe {
+        border: none;
+    }
+
+
+    /* CSS para o footer da página */
+    footer {
+        position: relative;
+        background-color: #0047B6;
+        width: 100%;
+        height: 40vh;
+        color: white;
+        text-align: center;
+
+        /* Deixando alguns textos com a fonte maior */
+        .boldtxt {
+            font-size: 64px;
+            margin: 0;
+            border: 0;
+        }
+
+        /* Configurando a classe "items" */
+        .items {
+            display: grid;
+            gap: 20px;
+            font-size: 40px;
+        }
+
+        .items a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .items a:hover {
+            /* border: 1px solid white;
+            border-radius: 10px; */
+            text-decoration: underline;
+        }
+
+        /* Configurando a classe "senaiLogo" para a logo do footer */
+        .senaiLogo {
+            position: absolute;
+            width: 40%;
+            left: 2%;
+        }
+    }
+
+    #footcontent {
+        position: relative;
+        width: 100%;
+        top: 10%;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    #contatomain {
+        position: absolute;
+        left: 2%;
+        top: 150px;
+        display: grid;
+    }
+
+    #contato {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .contato-item {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-size: 35px;
+    }
+    
+    .contato-item img {
+        width: 54px;
+    }
+    
+    .contato-item a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #sobre {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        left: 26%;
+        top: 30px;
+    }
+
+    #outro {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        left: 45%;
+        top: 30px;
+    }
+
+    #local {
+        position: absolute;
+        margin: 0;
+        border: 0;
+        right: 1%;
+        top: 5%;
+    }
+
+    #local iframe {
+        width: 850px;
+        height: 500px;
+    }
+
+    #rights {
+        position: absolute;
+        left: 40%;
+        bottom: 3%;
+        margin: 0;
+        border: 0;
+        font-size: 30px;
+    }
+}
